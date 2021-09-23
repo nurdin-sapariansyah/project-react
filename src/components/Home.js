@@ -1,6 +1,4 @@
 import react from "react";
-import "./App.css";
-import logo from "./asset/logo-ALTA.png";
 
 function Home() {
   return (
@@ -8,7 +6,7 @@ function Home() {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src={logo} alt="" width="100" height="50" />
+            Navbar
           </a>
           <button
             class="navbar-toggler"
