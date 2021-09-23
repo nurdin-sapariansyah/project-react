@@ -32,7 +32,7 @@ function TodoList() {
   return (
     <>
       <div className="container">
-        <h1 className="app-title">todos</h1>
+        <h1 className="app-title">todolist</h1>
         <ul className="todo-list js-todo-list">
           {list.map((v, i) => (
             <Todo
@@ -49,9 +49,9 @@ function TodoList() {
           <svg className="checklist-icon">
             <use href="#checklist-icon"></use>
           </svg>
-          <h2 className="empty-state__title">Add your first todo</h2>
+          <h2 className="empty-state__title">Add first todo for your list</h2>
           <p className="empty-state__description">
-            What do you want to get done today?
+            What do you have done do today?
           </p>
         </div>
         <form className="js-form" onSubmit={onSubmitList}>
