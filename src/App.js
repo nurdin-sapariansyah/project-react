@@ -1,6 +1,8 @@
+
 import { useState } from "react";
 import "./App.css";
 import Todo from "./components/Todo";
+import Home from "./components/Home";
 
 function TodoList() {
   const [list, setList] = useState([]);
@@ -31,6 +33,7 @@ function TodoList() {
 
   return (
     <>
+    <Home></Home>
       <div className="container">
         <h1 className="app-title">todolist</h1>
         <ul className="todo-list js-todo-list">
